@@ -3,3 +3,39 @@ body {
   height: 100%;
   margin: 0;
 }
+h1{
+  color: red;
+ position: relative;
+ left: 583px;
+ font-size: 29px;
+}
+nav a {
+ background-color: #dbd9d3;
+ position: relative;
+ left: 550px;
+}
+img {
+  width: 700px; ;
+  position: relative;
+  left: 372px;
+}
+figcaption {
+  position: relative;
+  left: 462px;
+}
+p.paragraph1,
+p.paragraph2 {
+text-align:center;
+width: 660px;
+margin:auto;
+}
+section#details {
+ background-color: red;
+ display: grid;
+ grid-template-columns: repeat(4, 1fr); 
+ gap: 10px;
+ font-size: small;
+ 
+ 
+ 
+}
